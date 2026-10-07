@@ -8,7 +8,7 @@ def rank_k(U, S, Vt, k):
 
 
 # Load image and convert to grayscale
-img = Image.open("images/photo.jpg").convert("L").resize((512, 512))
+img = Image.open("images/demo.jpg").convert("L").resize((512, 512))
 
 # Convert image to a NumPy matrix
 A = np.array(img, dtype=float)
